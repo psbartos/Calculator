@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator {
+    border: 1px solid black;
+    display: block;
+    max-width: 25%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.method {
+    background-color: whitesmoke;
+}
+
+.equal {
+    background-color: skyblue;
+}
+
+.display-input {
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.block {
+    border: 1px solid black;
+    display: inline-block;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+}
+
+.block:hover {
+    box-shadow: 0.1em 0.1em 0.1em 0.001em black;
+    cursor: pointer;
+    background-color: wheat;
+}
